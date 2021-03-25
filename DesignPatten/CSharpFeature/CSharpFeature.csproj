@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Joezhouman.DesignPattern.CSharpFeature</AssemblyName>
+    <RootNamespace>Joezhouman.DesignPattern.CSharpFeature</RootNamespace>
+  </PropertyGroup>
+
+</Project>
