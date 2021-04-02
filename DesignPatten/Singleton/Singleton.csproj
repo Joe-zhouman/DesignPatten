@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Joezhouman.DesignPattern.Singleton</AssemblyName>
+    <RootNamespace>Joezhouman.DesignPattern.Singleton</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Desktop\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
