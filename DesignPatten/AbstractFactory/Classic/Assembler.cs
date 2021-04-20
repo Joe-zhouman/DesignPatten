@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Dynamic;
-using System.Configuration;
-using System.IO;
 using System.Xml;
 using Joezhouman.DesignPattern.CSharpFeature.Config;
-namespace Joezhouman.DesignPattern.Factory.FactoryMethod {
+
+namespace Joezhouman.DesignPattern.AbstractFactory.Classic {
     
 
     public class Assembler {
         private const  string _CONFIG_FILE_PATH = "./App.Config";
-        private const string _SECTION_NAME = "Joezhouman.DesignPattern.Factory.FactoryMethod.CustomFactories";
-        private const string _FACTORY_TYPE_NAME = "IFactory";
+        private const string _SECTION_NAME = "AbstractFactory.CustomFactories";
+        private const string _FACTORY_TYPE_NAME = "IAbstractFactory";
         private static Dictionary<Type, Type> _dictionary = new Dictionary<Type, Type>();
 
         static Assembler() {
